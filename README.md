@@ -1,14 +1,13 @@
-> _Fork_ deze deeltaak en ga aan de slag. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# UI Elements
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+Een korte omschrijving van mijn werk
 
-## Beschrijving
+## Code Beschrijving
 
 
-# JavaScript Uitleg - Codeblock
+## Gebruikte JavaScript Conventies
 
-## Functie 1: Event Listener voor Toetsaanslagen
+### Functie 1: Event Listener voor Toetsaanslagen
 
 In deze functie hebben we een eventlistener aan het gehele document toegevoegd die reageert op toetsaanslagen. Als de toets '1' wordt ingedrukt, wordt de CSS-klasse 'change' toegepast op het 'frontend' element. Bij het indrukken van de spatiebalk wordt het 'help' blok getoond of verborgen, afhankelijk van de huidige weergave. Ook wordt de margintop van het 'hide' element aangepast voor visuele consistentie.
 
@@ -31,7 +30,7 @@ function checkKeyPressed(e) {
 }
 ```
 
-## Functie 2: Dubbelklik Event op Design Element
+### Functie 2: Dubbelklik / Klik / Hover Event op Design Element
 
 Deze functie zorgt ervoor dat wanneer er dubbel wordt geklikt op het 'design' element, de CSS-klasse 'grow' wordt toegepast.
 
@@ -48,11 +47,3 @@ function growHandler() {
 design.addEventListener("dblclick", growHandler);
 ```
 
-
-## Experimenten
-<!-- In de Experimenten beschrijf je wat je per experimnet hebt gedaan en documenteer je de code aan de hand van voorbeelden -->
-<!-- Voeg een mooie poster visual toe 📸 per experiment -->
-
-## Licentie
-
-This project is licensed under the terms of the [MIT license](./LICENSE).
